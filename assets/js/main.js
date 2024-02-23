@@ -1,11 +1,12 @@
 const settingsButton = document.getElementById("settingsbutton");
 const settingsWindow = document.getElementById("settings");
+const settingsCloseButton = document.getElementById("settingsCloseButton");
 
 settingsButton.addEventListener("click", () => {
-  settingsWindow.classList.toggle("active");
+  settingsWindow.classList.add("active");
 });
 
-settingsWindow.addEventListener("mouseleave", () => {
+settingsCloseButton.addEventListener("click", () => {
   settingsWindow.classList.remove("active");
 });
 
@@ -30,4 +31,12 @@ darkMode.addEventListener("click", () => {
 
   const isDarkModeNow = document.body.classList.contains("dark-mode-variables");
   localStorage.setItem("darkMode", isDarkModeNow.toString());
+});
+
+const MENU_BUTTON = document.querySelector(".hamburger");
+const MENU = document.querySelector(".nav-menu");
+
+MENU_BUTTON.addEventListener("click", () => {
+  MENU_BUTTON.classList.toggle("active");
+  MENU.classList.toggle("active");
 });

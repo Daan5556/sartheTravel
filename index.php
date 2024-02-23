@@ -25,7 +25,9 @@ if (!empty($_GET['page'])) {
 <body>
   <header>
     <div class="title-box">
-      <div></div>
+      <button class="hamburger">
+        <div class="bar"></div>
+      </button>
       <h1>La Sarthe Travel</h1>
       <div class="header-right">
         <span class="material-symbols-outlined"> person </span>
@@ -34,52 +36,63 @@ if (!empty($_GET['page'])) {
         </span>
       </div>
     </div>
-    <div class="colored-bar">
-      <a href="" class="colored-nav-box">
-        <div class="one-color red"></div>
-        <span>Info</span>
-      </a>
-      <a href="" class="colored-nav-box">
-        <div class="one-color blue"></div>
-        <span>Tickets</span>
-      </a>
-      <a href="" class="colored-nav-box">
-        <div class="one-color green"></div>
-        <span>Blog</span>
-      </a>
-      <a href="" class="colored-nav-box">
-        <div class="one-color yellow"></div>
-        <span>Contact</span>
-      </a>
-    </div>
   </header>
+  <div class="container">
+
+  </div>
+
+  <div class="nav-menu">
+    <ul>
+      <a href="#">
+        <li class="nav-item">
+          <span class="material-symbols-outlined">
+            info
+          </span>
+          <h3>Info</h3>
+        </li>
+      </a>
+      <a href="#">
+        <li class="nav-item"><span class="material-symbols-outlined">
+            payments
+          </span>
+          <h3>Tickets</h3>
+        </li>
+      </a>
+      <a href="#">
+        <li class="nav-item"><span class="material-symbols-outlined">
+            forum
+          </span>
+          <h3>Blog</h3>
+        </li>
+      </a>
+      <a href="#">
+        <li class="nav-item">
+          <span class="material-symbols-outlined">
+            mail
+          </span>
+          <h3>Contact</h3>
+        </li>
+      </a>
+    </ul>
+  </div>
+
   <div class="settings" id="settings">
-    <div class="lang-select-box">
-      <img src="assets/images/dutch-flag.svg" alt="Dutch Flag" />
-      <img src="assets/images/english-flag.svg" alt="English Flag" />
+    <div class="lang-select">
+      <img src="assets/images/dutch-flag.svg" alt="">
+      <img src="assets/images/english-flag.svg" alt="">
     </div>
     <div class="dark-mode">
-      <span class="material-symbols-outlined active"> light_mode </span>
-      <span class="material-symbols-outlined"> dark_mode </span>
+      <span class="material-symbols-outlined dark active">
+        light_mode
+      </span>
+      <span class="material-symbols-outlined">
+        dark_mode
+      </span>
     </div>
+    <span class="material-symbols-outlined" id="settingsCloseButton">
+      close
+    </span>
   </div>
-  <div class="container">
-    <div class="index-quickselect-container">
-      <div class="gray-transparant-box">
-        <h2>Info</h2>
-        <span class="material-symbols-outlined"> info </span>
-      </div>
-      <div class="gray-transparant-box">
-        <h2>Tickets</h2>
-        <span class="material-symbols-outlined"> payments </span>
-      </div>
-      <div class="gray-transparant-box">
-        <h2>Blog</h2>
-        <span class="material-symbols-outlined"> post </span>
-      </div>
-    </div>
-  </div>
-  <footer></footer>
 </body>
 
 </html>
