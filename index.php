@@ -37,9 +37,29 @@ if (!empty($_GET['page'])) {
       </div>
     </div>
   </header>
-  <div class="container">
+  <main>
+    <div class="left-sidebar">
+      <div class="left-sponsors sponsors">
+        <img src="assets/images/sponsors/koopa-air.png" alt="">
+        <img src="assets/images/sponsors/luigi.png" alt="">
+        <img src="assets/images/sponsors/rust.png" alt="">
+      </div>
+    </div>
+    <div class="container">
+      <?php
+      include "include/pages/" . $page . ".php" ?>
+    </div>
+    <div class="right-sidebar">
+      <div class="right-sponsors sponsors">
+        <img src="assets/images/sponsors/mario.png" alt="">
+        <img src="assets/images/sponsors/shot.png" alt="">
+        <img src="assets/images/sponsors/yoshi.png" alt="">
 
-  </div>
+      </div>
+    </div>
+
+  </main>
+
 
   <div class="nav-menu">
     <ul>

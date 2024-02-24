@@ -3,6 +3,7 @@
   --color-danger: #ff0060;
   --color-white: #fff;
   --color-black: #000;
+  --color-accent: #d3d3d3;
 
   --card-border-radius: 2rem;
   --box-shadow: 0 2rem 3rem var(--color-light);
@@ -10,12 +11,17 @@
   --color-blue: #0079ff;
   --color-green: #00dfa2;
   --color-yellow: #f6fa70;
+
+  --back-ground-sponsor: none;
 }
 
 .dark-mode-variables {
   --color-background: #292b2f;
   --color-white: #000;
   --color-black: #fff;
+  --color-accent: #36454f;
+
+  --back-ground-sponsor: #fff;
 }
 
 * {
@@ -211,7 +217,7 @@ span:hover {
   bottom: 0%;
   width: 18rem;
   height: calc(100vh - 70px);
-  background-color: #000836;
+  background-color: var(--color-accent);
   border-radius: 0px 15px 15px 0px;
   transform: translateX(-100%);
   transition: transform 0.4s;
@@ -232,10 +238,53 @@ span:hover {
   padding: 2rem;
   display: flex;
   gap: 0.4rem;
-  color: #fff;
+  color: var(--color-black);
   border-radius: 0px 15px 15px 0px;
 }
 
 .nav-item:hover {
   background-color: #000627;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+}
+
+.left-sidebar,
+.right-sidebar {
+  width: 15%;
+}
+
+.left-sidebar {
+  left: 0%;
+  bottom: 0%;
+}
+
+.right-sidebar {
+  right: 0%;
+  bottom: 0%;
+}
+
+.container {
+  width: 70%;
+  padding: 1rem 1rem;
+}
+
+.sponsors {
+  position: fixed;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  align-content: center;
+  padding: 5rem 1.2rem;
+}
+
+.right-sponsors img {
+  background-color: var(--back-ground-sponsor);
+}
+.sponsors img {
+  width: 100%;
 }
