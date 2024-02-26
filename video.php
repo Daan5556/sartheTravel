@@ -21,13 +21,18 @@ if (!empty($_GET['page'])) {
   <?php echo '
   <link rel="stylesheet" href="assets/style/style-' . $page . '.css" />' ?>
   <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/video.js" defer></script>
 </head>
 
 <body>
-  <div>
-    
+<div class="landingPageButtons" >
+<div class="muteIcon" id="muteButton">
+<span class="material-symbols-outlined" id="volumeIcon">
+volume_off
+</span>
+</div>
+
   </div>
-    <audio src=".assets/audios/"></audio>
 <video autoplay muted loop class="video"> 
 <source src="./assets/videos/race-bollen.mp4" type="video/mp4"> 
 </video>
