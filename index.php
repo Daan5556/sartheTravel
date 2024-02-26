@@ -28,7 +28,7 @@ if (!empty($_GET['page'])) {
       <button class="hamburger">
         <div class="bar"></div>
       </button>
-      <h1>DE La Sarthe Travel</h1>
+      <h1>DE DE La Sarthe Travel</h1>
       <div class="header-right">
         <span class="material-symbols-outlined"> person </span>
         <span class="material-symbols-outlined" id="settingsbutton">
