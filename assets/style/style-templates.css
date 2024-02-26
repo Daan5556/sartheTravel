@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 4rem;
+}
+
+.container div {
+  margin: 0rem 2rem;
+}
+
+.standard-box {
+}

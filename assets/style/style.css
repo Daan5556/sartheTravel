@@ -13,6 +13,7 @@
   --color-yellow: #f6fa70;
 
   --back-ground-sponsor: none;
+  --color-hover: #929292;
 }
 
 .dark-mode-variables {
@@ -22,6 +23,7 @@
   --color-accent: #36454f;
 
   --back-ground-sponsor: #fff;
+  --color-hover: #29353d;
 }
 
 * {
@@ -39,7 +41,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 100vh;
   background-color: var(--color-background);
   overflow-x: hidden;
 }
@@ -243,7 +244,7 @@ span:hover {
 }
 
 .nav-item:hover {
-  background-color: #000627;
+  background-color: var(--color-hover);
 }
 
 main {
@@ -268,7 +269,7 @@ main {
 
 .container {
   width: 70%;
-  padding: 1rem 1rem;
+  padding: 3rem 1rem;
 }
 
 .sponsors {
@@ -287,4 +288,16 @@ main {
 }
 .sponsors img {
   width: 100%;
+}
+
+/* Templates */
+
+.standard-box {
+  background-color: var(--color-white);
+  text-align: center;
+  border-radius: 15px;
+}
+
+.standard-box h2 {
+  background-color: #ff0000;
 }
