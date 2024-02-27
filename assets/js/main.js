@@ -2,6 +2,10 @@ const settingsButton = document.getElementById("settingsbutton");
 const settingsWindow = document.getElementById("settings");
 const settingsCloseButton = document.getElementById("settingsCloseButton");
 
+const sponsor1 = document.getElementById("sponsor1");
+const sponsor2 = document.getElementById("sponsor2");
+const sponsor3 = document.getElementById("sponsor3");
+
 settingsButton.addEventListener("click", () => {
   settingsWindow.classList.add("active");
 });
@@ -32,7 +36,16 @@ darkMode.addEventListener("click", () => {
 
   const isDarkModeNow = document.body.classList.contains("dark-mode-variables");
   localStorage.setItem("darkMode", isDarkModeNow.toString());
-  isDarkMode = !isDarkMode;
+
+  if (isDarkModeNow) {
+    sponsor1.src = "assets/images/sponsors/mario-dark.png";
+    sponsor2.src = "assets/images/sponsors/shot-dark.png";
+    sponsor3.src = "assets/images/sponsors/yoshi-dark.png";
+  } else {
+    sponsor1.src = "assets/images/sponsors/mario.png";
+    sponsor2.src = "assets/images/sponsors/shot.png";
+    sponsor3.src = "assets/images/sponsors/yoshi.png";
+  }
 });
 
 const MENU_BUTTON = document.querySelector(".hamburger");

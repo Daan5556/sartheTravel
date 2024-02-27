@@ -283,9 +283,6 @@ main {
   padding: 5rem 1.2rem;
 }
 
-.right-sponsors img {
-  background-color: var(--back-ground-sponsor);
-}
 .sponsors img {
   width: 100%;
 }
@@ -300,24 +297,4 @@ main {
 
 .standard-box h2 {
   background-color: #ff0000;
-}
-
-.marquee {
-  right: 110vw;
-  top: 20px;
-  position: relative;
-  animation: mymove 5s;
-  position: absolute;
-  z-index: 100;
-}
-.racecar {
-  width: 100px;
-}
-@keyframes mymove {
-  0% {
-    right: -10vw;
-  }
-  100% {
-    right: 110vw;
-  }
 }
