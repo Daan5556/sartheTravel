@@ -14,7 +14,6 @@ settingsCloseButton.addEventListener("click", () => {
 
 const darkMode = document.querySelector(".dark-mode");
 let isDarkMode = localStorage.getItem("darkMode");
-console.log("fetch local dark:" + isDarkMode);
 
 if (isDarkMode === "true") {
   document.body.classList.add("dark-mode-variables");
@@ -51,7 +50,6 @@ const updateSponsorContrast = () => {
       currentSponsorSource = currentSponsorSource.replace("-dark.png", ".png");
     }
     sponsors[i].src = currentSponsorSource;
-    console.log(currentSponsorSource);
   }
 };
 
