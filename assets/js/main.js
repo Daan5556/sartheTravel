@@ -13,7 +13,8 @@ settingsCloseButton.addEventListener("click", () => {
 // darkmode
 
 const darkMode = document.querySelector(".dark-mode");
-const isDarkMode = localStorage.getItem("darkMode");
+let isDarkMode = localStorage.getItem("darkMode");
+console.log("fetch local dark:" + isDarkMode);
 
 if (isDarkMode === "true") {
   document.body.classList.add("dark-mode-variables");
@@ -31,6 +32,7 @@ darkMode.addEventListener("click", () => {
 
   const isDarkModeNow = document.body.classList.contains("dark-mode-variables");
   localStorage.setItem("darkMode", isDarkModeNow.toString());
+  isDarkMode = !isDarkMode;
 });
 
 const MENU_BUTTON = document.querySelector(".hamburger");
