@@ -25,7 +25,10 @@ if (!empty($_GET['page'])) {
 </head>
 
 <body>
-<div class="landingPageButtons" >
+  <div class="landingPageButton">
+    <div id="landingPageButton" onclick= "window.location.href = 'index.php'">Naar De Pagina</div>
+  </div>
+<div class="mute" >
 <div class="muteIcon" id="muteButton">
 <span class="material-symbols-outlined" id="volumeIcon">
 volume_off

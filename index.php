@@ -28,7 +28,7 @@ if (!empty($_GET['page'])) {
       <button class="hamburger">
         <div class="bar"></div>
       </button>
-      <h1>DE La Sarthe Travel</h1>
+      <h1>La Sarthe Travel</h1>
       <div class="header-right">
         <span class="material-symbols-outlined"> person </span>
         <span class="material-symbols-outlined" id="settingsbutton">
@@ -37,6 +37,9 @@ if (!empty($_GET['page'])) {
       </div>
     </div>
   </header>
+  <div class="marquee">
+  <img class="racecar" src="./assets/gif/racecar.gif" alt="Racecar">
+</div>
   <main>
     <div class="left-sidebar">
       <div class="left-sponsors sponsors">
