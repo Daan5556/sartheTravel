@@ -17,7 +17,7 @@
 
 <body>
   <div class="landingPageButton">
-    <div id="landingPageButton" onclick="window.location.href = 'main.php'">Race Naar De Website!</div>
+    <div id="landingPageButton" onclick="window.location.href = 'main.php'">Race Naar De Website! </div>
   </div>
   <div class="mute">
     <div class="muteIcon" id="muteButton">
