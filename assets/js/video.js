@@ -8,6 +8,10 @@ muteButton.addEventListener("click", () => {
   isMuted = isMuted ? false : true;
   isMuted ? audio.pause() : audio.play();
   muteButton.innerHTML = isMuted
-    ? "<span class='material-symbols-outlined'>volume_off</span>"
-    : "<span class='material-symbols-outlined'>volume_up</span>";
+    ? "<span class='material-symbols-outlined' id='volumeIcon' >volume_off</span>"
+    : "<span class='material-symbols-outlined' id='volumeIcon' >volume_up</span>";
 });
+
+function pagina() {
+  window.location.href = "http://localhost/sartheTravel/index.php";
+}
