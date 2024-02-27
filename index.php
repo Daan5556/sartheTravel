@@ -37,9 +37,6 @@ if (!empty($_GET['page'])) {
       </div>
     </div>
   </header>
-  <div class="marquee">
-  <img class="racecar" src="./assets/gif/racecar.gif" alt="Racecar">
-</div>
   <main>
     <div class="left-sidebar">
       <div class="left-sponsors sponsors">
