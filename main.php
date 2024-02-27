@@ -51,9 +51,9 @@ if (!empty($_GET['page'])) {
     </div>
     <div class="right-sidebar">
       <div class="right-sponsors sponsors">
-        <img src="assets/images/sponsors/mario.png" alt="" id="sponsor1">
-        <img src="assets/images/sponsors/shot.png" alt="" id="sponsor2">
-        <img src="assets/images/sponsors/yoshi.png" alt="" id="sponsor3">
+        <img src="assets/images/sponsors/mario.png" alt="" class="sponsor">
+        <img src="assets/images/sponsors/shot.png" alt="" class="sponsor">
+        <img src="assets/images/sponsors/yoshi.png" alt="" class="sponsor">
 
       </div>
     </div>
