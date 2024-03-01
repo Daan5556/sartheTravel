@@ -131,7 +131,7 @@ if (!empty($_GET['page'])) {
        }
        include "include/pages/account/" . $accountPage . ".php";
        echo $accountPage;
-//      include "include/pages/account/" . "accountOverview " . ".php";
+//      include "include/pages/account/" . "login " . ".php";
       ?>
     </div>
 
