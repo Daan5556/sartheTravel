@@ -2,12 +2,24 @@ const settingsButton = document.getElementById("settingsbutton");
 const settingsWindow = document.getElementById("settings");
 const settingsCloseButton = document.getElementById("settingsCloseButton");
 
+const accountButton = document.getElementById("accountbutton");
+const accountWindow = document.getElementById("account");
+const accountCloseButton = document.getElementById("accountCloseButton");
+
 settingsButton.addEventListener("click", () => {
   settingsWindow.classList.add("active");
 });
 
 settingsCloseButton.addEventListener("click", () => {
   settingsWindow.classList.remove("active");
+});
+
+accountButton.addEventListener("click", () => {
+  accountWindow.classList.add("active");
+});
+
+accountCloseButton.addEventListener("click", () => {
+  accountWindow.classList.remove("active");
 });
 
 // darkmode

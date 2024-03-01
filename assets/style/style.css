@@ -143,7 +143,6 @@ nav a:hover {
   top: 0;
   right: 0;
   transform: translate(100%, 0%);
-  background-color: red;
   align-items: center;
   background-color: var(--color-white);
   border-radius: 15px;
@@ -178,6 +177,46 @@ span:hover {
   cursor: pointer;
 }
 
+.account-window {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 31rem;
+  height: 100vh;
+  z-index: 1;
+  background-color: var(--color-white);
+  transform: translate(100%, 0%);
+  transition: 0.3s;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.account-window .account-header {
+  height: 70px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0rem 1rem;
+}
+
+.account-footer {
+  height: 70px;
+}
+
+.account-window .account-container {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 70px;
+}
+
+.account-window.active {
+  transform: translate(0%, 0%);
+  transition: transform 0.3s;
+}
+
+.account-container {
+  display: grid;
+  place-content: center;
+}
 .hamburger {
   position: relative;
   display: block;
@@ -297,4 +336,82 @@ main {
 
 .standard-box h2 {
   background-color: #ff0000;
+}
+
+/* Login */
+
+.login {
+  text-align: center;
+}
+.login form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem 0rem;
+  text-align: start;
+}
+
+.login-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.login form input {
+  padding: 1rem;
+  border-radius: 15px;
+}
+
+.login h2 {
+  font-size: 3rem;
+}
+
+.account-overview {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.account-top {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.account-top .profile-pic {
+  background-color: #00dfa2;
+  border-radius: 50px;
+  display: grid;
+  place-content: center;
+  width: 4rem;
+  height: 4rem;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #fff;
+}
+
+.tickets {
+  background-color: var(--color-background);
+  border-radius: 15px;
+  padding: 1rem;
+}
+.account-top button {
+  padding: 0.2rem 1rem;
+  background-color: red;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.account-overview th,
+.account-overview td {
+  padding: 1rem;
+}
+
+table {
+  border-spacing: 0px;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
 }
