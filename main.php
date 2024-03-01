@@ -28,9 +28,11 @@ if (!empty($_GET['page'])) {
       <button class="hamburger">
         <div class="bar"></div>
       </button>
-      <h1>La Sarthe Travel</h1>
+      <a href="?page=home">
+        <h1>La Sarthe Travel</h1>
+      </a>
       <div class="header-right">
-        <span class="material-symbols-outlined"> person </span>
+        <span class="material-symbols-outlined" id="accountbutton"> person </span>
         <span class="material-symbols-outlined" id="settingsbutton">
           settings
         </span>
@@ -63,7 +65,7 @@ if (!empty($_GET['page'])) {
 
   <div class="nav-menu">
     <ul>
-      <a href="#">
+      <a href="?page=info">
         <li class="nav-item">
           <span class="material-symbols-outlined">
             info
@@ -71,21 +73,21 @@ if (!empty($_GET['page'])) {
           <h3>Info</h3>
         </li>
       </a>
-      <a href="#">
+      <a href="?page=tickets">
         <li class="nav-item"><span class="material-symbols-outlined">
             payments
           </span>
           <h3>Tickets</h3>
         </li>
       </a>
-      <a href="#">
+      <a href="?page=blog">
         <li class="nav-item"><span class="material-symbols-outlined">
             forum
           </span>
           <h3>Blog</h3>
         </li>
       </a>
-      <a href="#">
+      <a href="?page=contact">
         <li class="nav-item">
           <span class="material-symbols-outlined">
             mail
@@ -112,6 +114,27 @@ if (!empty($_GET['page'])) {
     <span class="material-symbols-outlined" id="settingsCloseButton">
       close
     </span>
+  </div>
+
+  <div class="account-window active" id="account">
+    <div class="account-header" id="accountCloseButton">
+      <span class="material-symbols-outlined">
+        close
+      </span>
+    </div>
+    <div class="account-container">
+      <?php
+       if (!empty($_GET["account-page"])) {
+         $accountPage = $_GET["accountPage"];
+       } else {
+         $accountPage = "login";
+       }
+       include "include/pages/account/" . $accountPage . ".php";
+       echo $accountPage;
+//      include "include/pages/account/" . "accountOverview " . ".php";
+      ?>
+    </div>
+
   </div>
 </body>
 
