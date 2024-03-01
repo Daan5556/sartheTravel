@@ -283,9 +283,6 @@ main {
   padding: 5rem 1.2rem;
 }
 
-.right-sponsors img {
-  background-color: var(--back-ground-sponsor);
-}
 .sponsors img {
   width: 100%;
 }
