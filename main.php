@@ -4,6 +4,7 @@ if (!empty($_GET['page'])) {
 } else {
   $page = 'home';
 }
+  session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -124,14 +125,16 @@ if (!empty($_GET['page'])) {
     </div>
     <div class="account-container">
       <?php
-       if (!empty($_GET["account-page"])) {
+      if (isset($_SESSION["username"])) {
+        $accountPage = "accountOverview";
+      }
+       else if (!empty($_GET["accountPage"])) {
          $accountPage = $_GET["accountPage"];
        } else {
          $accountPage = "login";
        }
        include "include/pages/account/" . $accountPage . ".php";
-       echo $accountPage;
-//      include "include/pages/account/" . "accountOverview " . ".php";
+//      include "include/pages/account/" . "accountOverview" . ".php";
       ?>
     </div>
 

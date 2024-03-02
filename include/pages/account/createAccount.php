@@ -15,5 +15,8 @@
         </div>
         <input type="submit" value="Versturen">
     </form>
-    <a href="?">Inloggen</a>
+  <?php
+  echo '<a href="?page=' . $page . '&accountPage=login">Account aanmaken</a>';
+  echo '</div>';
+  ?>
 </div>

@@ -2,7 +2,7 @@
     <div class="account-top">
         <span class="profile-pic">D</span>
         Username
-        <button>Log uit</button>
+        <button onclick="window.location='/include/pages/account/handleRequest/logout.php'">Log uit</button>
     </div>
     <div class="tickets">
         <h3>Mijn Tickets</h3>
