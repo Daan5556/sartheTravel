@@ -1,25 +1,13 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
+.containertickets {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #fff;
+  --color-black: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-  text-align: center;
-  color: #000000;
-  margin-bottom: 20px;
-}
-
-.track-image {
+#track-image {
   display: block;
   margin: 0 auto 20px;
   max-width: 100%;
@@ -27,14 +15,14 @@ h1 {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-form {
+#ticket-form {
   text-align: center;
 }
 
-label {
+.tickettype.label {
   display: block;
   margin-bottom: 10px;
-  color: #555;
+  --color-hover: #29353d;
   font-weight: bold;
 }
 
@@ -47,46 +35,42 @@ select {
   box-sizing: border-box;
 }
 
-input[type="submit"] {
-  padding: 10px 20px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-  width: 50%;
-  margin: 20px auto;
-  display: block;
-  flex-wrap: wrap;
-}
-
 .Checkout-box {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #fff;
+  --color-black: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
-}
-
-.Checkout-box h2 {
-  color: #007bff;
-  margin-bottom: 20px;
 }
 
 .Checkout-box p {
   color: #555;
 }
 
-input[type="number"] {
-  padding: 10px;
-  font-size: 15px;
-  width: 100%;
+#kids {
+  max-width: 100%;
+  padding: 5px;
   border-radius: 5px;
-  border: 1px solid #ddd;
-  box-sizing: border-box;
-  margin-top: 2%;
+  margin-bottom: 5px;
+}
+
+#volwassenen {
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+#vip {
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.flexTickets {
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  justify-content: left;
 }
