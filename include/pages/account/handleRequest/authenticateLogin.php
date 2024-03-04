@@ -16,9 +16,8 @@ function validateLogin($username, $password, $conn) {
 
   if ($result->num_rows > 0) {
     return true;
-  } else {
-    return false;
   }
+  return false;
 }
 
 session_start();

@@ -1,7 +1,21 @@
+<?php
+include "include/phpconfig.php";
+
+$username = $_SESSION["username"];
+?>
+
 <div class="account-overview">
     <div class="account-top">
-        <span class="profile-pic">D</span>
-        Username
+        <span class="profile-pic">
+          <?php
+          echo substr($username, 0, 1);
+          ?>
+        </span>
+        <span class="username">
+          <?php
+          echo $username
+          ?>
+        </span>
         <button onclick="window.location='/include/pages/account/handleRequest/logout.php'">Log uit</button>
     </div>
     <div class="tickets">
