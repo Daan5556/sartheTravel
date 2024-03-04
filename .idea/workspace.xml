@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8001a05e-0c57-4c60-bacc-73865e830410" name="Changes" comment="authentication Encrypt" />
+    <list default="true" id="8001a05e-0c57-4c60-bacc-73865e830410" name="Changes" comment="authentication Encrypt">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b6fc9498-ac73-448c-a6b2-70322a1c3fc8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b6fc9498-ac73-448c-a6b2-70322a1c3fc8/storage_v2/_src_/schema/sarthetravel.Z8vhtQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/pages/account/handleRequest/writeAccountToSql.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/pages/account/handleRequest/writeAccountToSql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/include/phpconfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/phpconfig.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,25 +33,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Contact",
-    "last_opened_file_path": "C:/xampp/htdocs/sartheTravel",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/xampp/htdocs/sartheTravel&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\sartheTravel" />
@@ -73,7 +79,8 @@
       <workItem from="1709366794759" duration="4522000" />
       <workItem from="1709401808568" duration="1243000" />
       <workItem from="1709493250863" duration="4419000" />
-      <workItem from="1709539277535" duration="9152000" />
+      <workItem from="1709539277535" duration="9719000" />
+      <workItem from="1709553583434" duration="991000" />
     </task>
     <task id="LOCAL-00001" summary="account">
       <option name="closed" value="true" />
