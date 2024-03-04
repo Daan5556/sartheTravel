@@ -1,47 +1,6 @@
-<?php
-if (!empty($_GET['page'])) {
-  $page = $_GET['page'];
-} else {
-  $page = 'home';
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>La Sarthe Travel</title>
-  <link rel="stylesheet" href="https://use.typekit.net/gtw3hqk.css" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-  <link rel="stylesheet" href="assets/style/style.css" />
-  <link rel="stylesheet" href="assets/style/style-contact.css" />
-  <?php echo '
-  <link rel="stylesheet" href="assets/style/style-' . $page . '.css" />' ?>
-  <script src="assets/js/main.js" defer></script>
-</head>
-
-<body>
-  <header>
-    <div class="title-box">
-      <button class="hamburger">
-        <div class="bar"></div>
-      </button>
-      <h1>La Sarthe Travel</h1>
-      <div class="header-right">
-        <span class="material-symbols-outlined"> person </span>
-        <span class="material-symbols-outlined" id="settingsbutton">
-          settings
-        </span>
-      </div>
-    </div>
-  </header>
-  <main>
-    </div>
-    <div class="container">
-      <?php
-     // include "include/pages/" . $page . ".php" ?>
+    
     <div class="contact">
         <h2>Contact Us</h2>
             <div class="vNaamContact">
@@ -64,12 +23,6 @@ if (!empty($_GET['page'])) {
     <div class="GwenBollen">
               <img src="" alt="Gwen Bollen">
             </div>
-    </div>
-    <div>
-    </div>
-    </div>
-    <div>
-    </div>
     <div class="gwenText">
     <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Laboriosam neque ullam fugiat, debitis odit laborum.</h3>
     </div>
