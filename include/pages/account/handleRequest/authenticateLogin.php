@@ -7,20 +7,8 @@ if (!empty($_GET["page"])) {
   $page = 'home';
 }
 
-function validateLogin($username, $password, $conn) {
-  $username = $conn->real_escape_string($username);
-  $password = $conn->real_escape_string($password);
-
-  $query = "SELECT * FROM user_information WHERE user_name='$username' AND user_password='$password'";
-  $result = $conn->query($query);
-
-  if ($result->num_rows > 0) {
-    return true;
-  }
-  return false;
-}
-
-function validateLoginHashed($username, $password, $conn) {
+function validateLoginHashed($username, $password, $conn)
+{
   $hashedPassword = getHashedPassword($username, $conn);
 
   if ($hashedPassword != null) {
@@ -31,7 +19,8 @@ function validateLoginHashed($username, $password, $conn) {
   return false;
 }
 
-function getHashedPassword($username, $conn) {
+function getHashedPassword($username, $conn)
+{
   $query = "SELECT user_password FROM user_information WHERE user_name = '$username'";
   $result = $conn->query($query);
 
@@ -49,8 +38,10 @@ $password = $_POST["password"];
 
 if (validateLoginHashed($username, $password, $conn)) {
   $_SESSION["username"] = $username;
+  $redirectTo = "/main.php?page=" . $page;
 } else {
   echo "login failed";
+  $redirectTo = "/main.php?page=" . $page . "&loginerror=1";
 }
 
-header("location:/main.php?page=" . $page);
+header("location: " . $redirectTo);

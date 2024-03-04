@@ -72,6 +72,7 @@ header {
   cursor: pointer;
   transition: color 0.2s;
 }
+
 .title-box span:hover {
   color: var(--color-white);
   transition: color 0.2s;
@@ -94,6 +95,7 @@ a {
   display: flex;
   width: 100%;
 }
+
 .one-color {
   height: 1rem;
 }
@@ -265,6 +267,7 @@ main {
 .right-sponsors img {
   background-color: var(--back-ground-sponsor);
 }
+
 .sponsors img {
   width: 100%;
 }

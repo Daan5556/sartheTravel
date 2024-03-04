@@ -72,6 +72,7 @@ header {
   cursor: pointer;
   transition: color 0.2s;
 }
+
 .title-box span:hover {
   color: var(--color-white);
   transition: color 0.2s;
@@ -94,6 +95,7 @@ a {
   display: flex;
   width: 100%;
 }
+
 .one-color {
   height: 1rem;
 }
@@ -217,6 +219,7 @@ span:hover {
   display: grid;
   place-content: center;
 }
+
 .hamburger {
   position: relative;
   display: block;
@@ -342,13 +345,21 @@ main {
 
 .login {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 .login form {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   margin: 2rem 0rem;
   text-align: start;
+}
+
+.login form input {
+  width: 200px;
 }
 
 .login-row {
@@ -363,6 +374,10 @@ main {
 
 .login h2 {
   font-size: 3rem;
+}
+
+.login .login-error {
+  color: red;
 }
 
 .account-overview {
@@ -395,6 +410,7 @@ main {
   border-radius: 15px;
   padding: 1rem;
 }
+
 .account-top button {
   padding: 0.2rem 1rem;
   background-color: red;
