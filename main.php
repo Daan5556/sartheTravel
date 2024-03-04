@@ -117,7 +117,7 @@ session_start();
     </span>
 </div>
 
-<div class="account-window active" id="account">
+<div class="account-window" id="account">
   <div class="account-header" id="accountCloseButton">
       <span class="material-symbols-outlined">
         close

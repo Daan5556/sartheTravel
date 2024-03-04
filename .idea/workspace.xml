@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8001a05e-0c57-4c60-bacc-73865e830410" name="Changes" comment="authentication Encrypt">
-      <change afterPath="$PROJECT_DIR$/assets/js/validateCreateAccount.js" afterDir="false" />
+    <list default="true" id="8001a05e-0c57-4c60-bacc-73865e830410" name="Changes" comment="Form validation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/dutch-flag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/dutch-flag.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/english-flag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/english-flag.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/sponsors/mario.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/sponsors/mario.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/style-contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/style-contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/style/stylevideo.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/stylevideo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/pages/account/accountOverview.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/pages/account/accountOverview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/pages/account/createAccount.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/pages/account/createAccount.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/pages/account/handleRequest/authenticateLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/pages/account/handleRequest/authenticateLogin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/pages/account/handleRequest/writeAccountToSql.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/pages/account/handleRequest/writeAccountToSql.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/pages/account/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/pages/account/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/pages/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/pages/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/pages/templates.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/pages/templates.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +80,7 @@
       <workItem from="1709401808568" duration="1243000" />
       <workItem from="1709493250863" duration="4419000" />
       <workItem from="1709539277535" duration="9719000" />
-      <workItem from="1709553583434" duration="5122000" />
+      <workItem from="1709553583434" duration="5542000" />
     </task>
     <task id="LOCAL-00001" summary="account">
       <option name="closed" value="true" />
@@ -138,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709552837837</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Form validation">
+      <option name="closed" value="true" />
+      <created>1709560382181</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709560382181</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +142,7 @@
     <MESSAGE value="Initiliazed authentication" />
     <MESSAGE value="Added fetching to aucount overview" />
     <MESSAGE value="authentication Encrypt" />
-    <option name="LAST_COMMIT_MESSAGE" value="authentication Encrypt" />
+    <MESSAGE value="Form validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Form validation" />
   </component>
 </project>
