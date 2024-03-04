@@ -431,3 +431,40 @@ table {
 button {
   cursor: pointer;
 }
+
+.account-overview .blue {
+  background-color: #4281f5;
+}
+
+.account-overview .green {
+  background-color: #00dfa2;
+}
+
+.account-overview .yellow {
+  background-color: #fcba03;
+}
+
+.account-overview .red {
+  background-color: #eb4034;
+}
+
+.account-overview .purple {
+  background-color: #ba34eb;
+}
+
+.account-overview .pink {
+  background-color: #eb34a8;
+}
+
+.color-wheel {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.color-to-pick {
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+  border-radius: 50px;
+}

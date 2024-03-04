@@ -4,15 +4,15 @@
         onsubmit="return validateCreateAccount()">
     <div class="login-row">
       <label for="username">Gebruikersnaam</label>
-      <input type="text" name="username" id="username">
+      <input type="text" name="username" id="username" required>
     </div>
     <div class="login-row">
       <label for="password">Wachtwoord</label>
-      <input type="password" name="password" id="password">
+      <input type="password" name="password" id="password" required>
     </div>
     <div class="login-row">
       <label for="password">Bevestig Wachtwoord</label>
-      <input type="password" id="confirm-password">
+      <input type="password" id="confirm-password" required>
     </div>
     <input type="submit" value="Versturen">
   </form>

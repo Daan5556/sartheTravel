@@ -15,12 +15,20 @@ settingsCloseButton.addEventListener("click", () => {
 });
 
 accountButton.addEventListener("click", () => {
-  accountWindow.classList.add("active");
+  localStorage.setItem('account-active', 'true')
+  accountWindow.classList.add('active');
 });
 
 accountCloseButton.addEventListener("click", () => {
-  accountWindow.classList.remove("active");
+  localStorage.setItem('account-active', 'false')
+  accountWindow.classList.remove('active');
 });
+
+if (localStorage.getItem("account-active") === 'true') {
+  accountWindow.classList.add('active');
+} else {
+  accountWindow.classList.remove('active');
+}
 
 // darkmode
 
