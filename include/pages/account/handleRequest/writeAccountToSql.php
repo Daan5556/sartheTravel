@@ -15,7 +15,8 @@ if (!$userNameResult->num_rows > 0) {
     $page = $_GET["page"];
   }
 
-  $sql = "INSERT INTO user_information (user_name, user_password) VALUES ('$userName', '$hashedPassword')";
+  $color_id = mt_rand(1, 6);
+  $sql = "INSERT INTO user_information (user_name, user_password, color_id) VALUES ('$userName', '$hashedPassword', '$color_id')";
 
   $conn->query($sql);
 

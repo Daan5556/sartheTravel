@@ -467,4 +467,14 @@ button {
   height: 5rem;
   cursor: pointer;
   border-radius: 50px;
+  position: relative;
 }
+
+.color-to-pick.active {
+  border: 5px solid var(--color-black);
+}
+
+.account-top .save-settings {
+  background-color: #0720ad;
+}
+

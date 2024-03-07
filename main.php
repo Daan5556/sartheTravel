@@ -126,13 +126,14 @@ session_start();
   <div class="account-container">
     <?php
     if (!empty($_GET["accountPage"])) {
+      $accountPage = $_GET["accountPage"];
+    }
+    if (!empty($_GET["accountPage"])) {
       if ($_GET["accountPage"] == 'userSettings') {
         $accountPage = "userSettings";
       }
     } else if (isset($_SESSION["username"])) {
       $accountPage = "accountOverview";
-    } else if (!empty($_GET["accountPage"])) {
-      $accountPage = $_GET["accountPage"];
     } else {
       $accountPage = "login";
     }

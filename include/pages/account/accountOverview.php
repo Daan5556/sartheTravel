@@ -6,7 +6,7 @@ $username = $_SESSION["username"];
 
 <div class="account-overview">
   <div class="account-top">
-        <span class="profile-pic"
+        <span class="profile-pic" id="profile-pic-account"
               onclick="window.location='?page=' + '<?php echo $page ?>'  + '&accountPage=userSettings'">
           <?php
           echo strtoupper(substr($username, 0, 1));
