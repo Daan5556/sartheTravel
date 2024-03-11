@@ -11,7 +11,7 @@ if (empty($_GET["page"])) {
   $page = $_GET["page"];
 }
 
-$sql = "INSERT INTO user_information (user_name, user_password) VALUES ('$userName', '$passWord')";
+$sql = "INSERT INTO user_information (user_name, user_password) VALUES ('$userName', '$hashedPassword')";
 
 $conn->query($sql);
 
