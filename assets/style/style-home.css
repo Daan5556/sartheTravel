@@ -3,3 +3,121 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.container-home {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 600px;
+  max-width: 10000px;
+  min-width: none;
+  background-image: url("../images/racetrackBackground.jpg");
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 25px;
+}
+
+.widgetsContainer {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.text {
+  font-size: 150px;
+  font-family: "Bungee Outline", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.widgets {
+  margin: 10px;
+  padding: 6px;
+  min-width: 30px;
+  max-width: 50%;
+  min-height: 200px;
+  max-height: 240px;
+  background-color: #193457;
+  border-radius: 6px;
+  align-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  border-color: #11233b;
+  border-width: 2px;
+}
+.widgetText {
+  width: 100%;
+  font-size: 20px;
+  color: var(--color-black);
+  background-color: var(--color-accent);
+}
+main .material-symbols-outlined {
+  color: var(--color-black);
+  background-color: var(--color-accent);
+}
+.textWidgets {
+  margin-right: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: var(--color-white);
+  font-weight: 100;
+}
+
+main a {
+  z-index: 100;
+}
+.tickets {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-accent);
+  width: 100%;
+  border-radius: 0px;
+}
+.post {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.imageBlog {
+  width: 180px;
+  height: 225px;
+  object-fit: cover;
+}
+.imageContact {
+  width: 180px;
+  height: 175px;
+  object-fit: cover;
+}
+.postText {
+  background-color: var(--color-accent);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.textPost {
+  display: -webkit-box;
+  -webkit-line-clamp: 9;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.contactText {
+  background-color: var(--color-accent);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.contact {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.contactIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
