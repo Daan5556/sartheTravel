@@ -23,7 +23,7 @@ function calculatePrice() {
   }
   if (kids.value < 0 || volwassenen.value < 0 || vip.value < 0) {
     alert("Kan niet minder dan 0 tickets bestellen")
-    return
+    return false
   }
 
   let total = kids.value * 10 + volwassenen.value * 25 + vip.value * 50

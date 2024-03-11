@@ -48,7 +48,7 @@ session_start();
       <img src="assets/images/sponsors/rust.png" alt="">
     </div>
   </div>
-  <div class="container">
+  <div class="container" id="main-container">
     <?php
     include "include/pages/" . $page . ".php" ?>
   </div>
@@ -117,7 +117,9 @@ session_start();
     </span>
 </div>
 
-<div class="account-window" id="account">
+<div class="account-window <?php if (isset($_GET["loginerror"])) {
+  echo "active";
+} ?>" id="account">
   <div class="account-header" id="accountCloseButton">
       <span class="material-symbols-outlined">
         close

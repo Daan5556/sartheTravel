@@ -14,7 +14,20 @@ $username = $_SESSION["username"];
         </span>
     <span class="username">
           <?php
-          echo $username
+          echo $username;
+
+          $query = "SELECT o.*
+          FROM orders o
+          JOIN user_information u ON o.user_id = u.user_id
+          WHERE u.user_name = '$username'";
+
+          $result = $conn->query($query);
+          $row = $result->fetch_assoc();
+
+          $kidsAmount = !empty($row["amount_kids"]) ? $row["amount_kids"] : 0;
+          $volwassenAmount = !empty($row["amount_volwassenen"]) ? $row["amount_volwassenen"] : 0;
+          $vipAmount = !empty($row["amount_vip"]) ? $row["amount_vip"] : 0;
+
           ?>
         </span>
     <button onclick="window.location='/include/pages/account/handleRequest/logout.php'">Log uit</button>
@@ -23,24 +36,20 @@ $username = $_SESSION["username"];
     <h3>Mijn Tickets</h3>
     <table>
       <tr>
-        <th>Evenement</th>
-        <th>Datum</th>
+        <th>Soort</th>
         <th>Hoeveelheid</th>
       </tr>
       <tr>
-        <td>Bollen Racing</td>
-        <td>23/22/</td>
-        <td>3</td>
+        <td>Kids</td>
+        <td><?php echo $kidsAmount != null ? $kidsAmount : 0 ?></td>
       </tr>
       <tr>
-        <td>Bollen Racing</td>
-        <td>23/22/</td>
-        <td>3</td>
+        <td>Volwassenen</td>
+        <td><?php echo $volwassenAmount != null ? $volwassenAmount : 0 ?></td>
       </tr>
       <tr>
-        <td>Bollen Racing</td>
-        <td>23/22/</td>
-        <td>3</td>
+        <td>VIP</td>
+        <td><?php echo $vipAmount != null ? $vipAmount : 0 ?></td>
       </tr>
 
     </table>

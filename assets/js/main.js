@@ -1,6 +1,7 @@
 const settingsButton = document.getElementById("settingsbutton");
 const settingsWindow = document.getElementById("settings");
 const settingsCloseButton = document.getElementById("settingsCloseButton");
+const mainContainer = document.getElementById("main-container");
 
 const accountButton = document.getElementById("accountbutton");
 const accountWindow = document.getElementById("account");
@@ -24,10 +25,27 @@ accountCloseButton.addEventListener("click", () => {
   accountWindow.classList.remove('active');
 });
 
+const closeWindows = () => {
+  settingsWindow.classList.remove(("active"))
+  localStorage.setItem('account-active', 'false')
+  localStorage.setItem('account-active', 'false')
+  localStorage.setItem('account-active', 'false')
+
+  accountWindow.classList.remove(("active"))
+  MENU.classList.remove(("active"))
+  MENU_BUTTON.classList.remove("active")
+}
+
+mainContainer.addEventListener("click", closeWindows)
+
+addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    closeWindows()
+  }
+})
+
 if (localStorage.getItem("account-active") === 'true') {
   accountWindow.classList.add('active');
-} else {
-  accountWindow.classList.remove('active');
 }
 
 // darkmode
@@ -82,3 +100,4 @@ MENU_BUTTON.addEventListener("click", () => {
   MENU_BUTTON.classList.toggle("active");
   MENU.classList.toggle("active");
 });
+
