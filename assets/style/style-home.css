@@ -24,19 +24,19 @@ body {
 .widgetsContainer {
   display: flex;
   flex-direction: row;
-  overflow: hidden;
   justify-content: center;
 }
 .text {
-  font-size: 150px;
+  font-size: 9vw;
   font-family: "Bungee Outline", sans-serif;
   font-weight: 400;
   font-style: normal;
+  overflow: hidden;
 }
 .widgets {
   margin: 10px;
   padding: 6px;
-  min-width: 30px;
+  min-width: 15%;
   max-width: 50%;
   min-height: 200px;
   max-height: 240px;
@@ -81,6 +81,7 @@ main a {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  flex-shrink: 10;
 }
 .imageBlog {
   width: 180px;
