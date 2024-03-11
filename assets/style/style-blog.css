@@ -19,6 +19,7 @@
   max-height: 300px;
   max-width: 300px;
   background-color: var(--color-accent);
+  box-shadow: 12px 12px 2px 1px var(--color-black);
 }
 .image {
   object-fit: cover;
