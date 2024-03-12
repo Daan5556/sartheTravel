@@ -9,26 +9,26 @@
   <div class="widgetsContainer">
     <div class="widgets">
       <div class="textWidgets">
-        <span>T<br />‎ I<br />C<br />K<br />E<br />T<br />S</span>
+        <span>T<br/>‎ I<br/>C<br/>K<br/>E<br/>T<br/>S</span>
       </div>
-      <div class="tickets">
+      <div class="tickets-widget">
         <span class="widgetText">Volgende Race: 12 Mei</span>
-        <br />
+        <br/>
         <span class="widgetText">Uw Tickets: 12</span>
         <span class="widgetText">VIP Tickets: 3</span>
         <span class="widgetText">Volwassene Tickets: 4</span>
         <span class="widgetText">Kinder Tickets: 5</span>
-        <br />
+        <br/>
         <span class="widgetText">Beschikbare Plaatsen: 12</span>
       </div>
     </div>
     <div class="widgets">
       <div class="textWidgets">
-        <span>B<br />L<br />O<br />G</span>
+        <span>B<br/>L<br/>O<br/>G</span>
       </div>
       <div class="blog">
         <div class="post">
-          <img class="imageBlog" src="./assets/images/blogfoto.jpg" alt="blog" />
+          <img class="imageBlog" src="./assets/images/blogfoto.jpg" alt="blog"/>
           <div class="postText">
             <h3>Wortels in racebaan?</h3>
             <span class="textPost">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -44,11 +44,11 @@
     </div>
     <div class="widgets">
       <div class="textWidgets">
-        <span>C<br />O<br />N<br />T<br />A<br />C<br />T</span>
+        <span>C<br/>O<br/>N<br/>T<br/>A<br/>C<br/>T</span>
       </div>
       <div class="contact">
         <div class="contactText">
-          <img class="imageContact" src="./assets/images/DieterBollen.png" alt="blog" />
+          <img class="imageContact" src="./assets/images/DieterBollen.png" alt="blog"/>
           <h3>Gwen Bollen</h3>
           <span class="contactIcons"><span class="material-symbols-outlined"> mail </span><span
               class="material-symbols-outlined"> call </span><span class="material-symbols-outlined"> fax </span></span>
