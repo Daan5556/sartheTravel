@@ -34,30 +34,30 @@
   <ul>
     <a href="#">
       <li class="nav-item">
-          <span class="material-symbols-outlined">
-            info
-          </span>
+        <span class="material-symbols-outlined">
+          info
+        </span>
         <h3>Info</h3>
       </li>
     </a>
     <a href="#">
       <li class="nav-item"><span class="material-symbols-outlined">
-            payments
-          </span>
+          payments
+        </span>
         <h3>Tickets</h3>
       </li>
     </a>
     <a href="#">
       <li class="nav-item"><span class="material-symbols-outlined">
-          </span>
+        </span>
         <h3>Blog</h3>
       </li>
     </a>
     <a href="#">
       <li class="nav-item">
-          <span class="material-symbols-outlined">
-            mail
-          </span>
+        <span class="material-symbols-outlined">
+          mail
+        </span>
         <h3>Contact</h3>
       </li>
     </a>
@@ -70,16 +70,17 @@
     <img src="assets/images/english-flag.svg" alt="">
   </div>
   <div class="dark-mode">
-      <span class="material-symbols-outlined dark active">
-        light_mode
-      </span>
+    <span class="material-symbols-outlined dark active">
+      light_mode
+    </span>
     <span class="material-symbols-outlined">
-        dark_mode
-      </span>
+      dark_mode
+    </span>
   </div>
   <span class="material-symbols-outlined" id="settingsCloseButton">
-      close
-    </span>
+    close
+  </span>
 </div>
 </body>
+
 </html>
