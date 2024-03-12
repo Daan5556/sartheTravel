@@ -23,7 +23,7 @@
     }
   }
 
-  echo '<a href="?page=' . $page . '&accountPage=login">Account aanmaken</a>';
+  echo '<a href="?page=' . $page . '&accountPage=login">Inloggen</a>';
   echo '</div>';
   ?>
 </div>

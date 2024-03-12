@@ -1,12 +1,6 @@
 <?php
 include "../../../phpconfig.php";
 
-if (!empty($_GET["page"])) {
-  $page = $_GET["page"];
-} else {
-  $page = 'home';
-}
-
 function validateLoginHashed($username, $password, $conn)
 {
   $hashedPassword = getHashedPassword($username, $conn);

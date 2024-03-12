@@ -20,6 +20,10 @@
 if (!empty($_GET["loginerror"])) {
   if ($_GET["loginerror"] == 1) {
     echo "<span class='login-error'>Gebruikersnaam en wachtwoord komen niet overeen</span><br>";
+  } else if ($_GET["loginerror"] == 2) {
+    echo "<span class='login-error'>Gelieve in te loggen om de transactie af te ronden</span><br>";
+  } else {
+    echo "<span class='login-error'>Login error</span><br>";
   }
 }
 
