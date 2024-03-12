@@ -28,8 +28,6 @@ accountCloseButton.addEventListener("click", () => {
 const closeWindows = () => {
   settingsWindow.classList.remove(("active"))
   localStorage.setItem('account-active', 'false')
-  localStorage.setItem('account-active', 'false')
-  localStorage.setItem('account-active', 'false')
 
   accountWindow.classList.remove(("active"))
   MENU.classList.remove(("active"))

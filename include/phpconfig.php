@@ -15,3 +15,5 @@ if (!empty($_GET['page'])) {
 } else {
   $page = 'home';
 }
+
+$username = $_SESSION["username"];
