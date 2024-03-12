@@ -1,3 +1,4 @@
+<form action="?page=contactsubmitted" method="post">
 <div class="contact">
   <div class="gwenContainer">
     <a
@@ -14,33 +15,25 @@
       <div class="gwenInfo">Gwen Bollen</div>
     </div>
   </div>
-  <h2 class="ContactUs">Contact Us</h2>
+  <h2 class="ContactUs">Contacteer Ons</h2>
   <div class="formContainer">
     <div class="vNaamContact">
-      <label for="voornaam">Voornaam:</label>
+      <label for="voornaam">Naam:</label>
       <input
         type="text"
         id="voornaam"
         name="voornaam"
         placeholder="Vul hier uw voornaam in..."
-        maxlength="30"
-        required
-      />
-    </div>
-    <div class="aNaamContact">
-      <label for="achternaam">Achternaam:</label>
-      <input
-        type="text"
-        id="achternaam"
-        name="achternaam"
-        placeholder="Vul hier uw achternaam in..."
-        maxlength="30"
+        maxlength="50"
         required
       />
     </div>
   </div>
   <div class="commentContact">
-    <label for="comment">Comment:</label>
-    <textarea placeholder="Enter your comment..." spellcheck="false"></textarea>
+    <label for="comment">Commentaar:</label>
+    <textarea placeholder="Vul hier uw commentaar in..." spellcheck="false"></textarea>
   </div>
 </div>
+<button type="submit" class="stuurKnop"><a>Sturen</a></button>  
+
+</form>

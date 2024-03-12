@@ -1,0 +1,10 @@
+.container {
+  display: grid;
+  place-content: center;
+  height: 100%;
+}
+
+body,
+html {
+  height: 100%;
+}
