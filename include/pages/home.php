@@ -19,7 +19,7 @@
         <span class="widgetText">Volwassene Tickets: 4</span>
         <span class="widgetText">Kinder Tickets: 5</span>
         <br />
-        <span class="widgetText">Beschrikbare Plaatsen: 12</span>
+        <span class="widgetText">Beschikbare Plaatsen: 12</span>
       </div>
     </div>
     <div class="widgets">
@@ -54,6 +54,11 @@
       </div>
       <div class="contact">
         <div class="contactText">
+          <img
+            class="imageContact"
+            src="./assets/images/DieterBollen.png"
+            alt="blog"
+          />  
           <h3>Gwen Bollen</h3>
           <span class="contactIcons"
             ><span class="material-symbols-outlined"> mail </span
@@ -61,11 +66,6 @@
             ><span class="material-symbols-outlined"> fax </span></span
           >
         </div>
-        <img
-          class="imageContact"
-          src="./assets/images/DieterBollen.png"
-          alt="blog"
-        />
       </div>
     </div>
   </div>
