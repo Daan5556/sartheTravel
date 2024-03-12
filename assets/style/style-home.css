@@ -9,7 +9,6 @@ body {
   flex-direction: column;
   overflow: hidden;
   position: relative;
-  z-index: -1;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -80,10 +79,6 @@ main .material-symbols-outlined {
   font-weight: 100;
 }
 
-main a {
-  z-index: 100;
-}
-
 .tickets-widget {
   display: flex;
   flex-direction: column;
@@ -144,6 +139,10 @@ main a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.container {
+  padding: 0rem;
 }
 
 @media (max-width: 1000px) {
