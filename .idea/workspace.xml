@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8001a05e-0c57-4c60-bacc-73865e830410" name="Changes" comment="Merged homepage&#10;fixed tickets query">
-      <change afterPath="$PROJECT_DIR$/include/tickets_query.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/pages/account/accountOverview.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/pages/account/accountOverview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/pages/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/include/phpconfig.php" beforeDir="false" afterPath="$PROJECT_DIR$/include/phpconfig.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/df5ee151-4643-47d3-a69c-5e5c58cbb37e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/df5ee151-4643-47d3-a69c-5e5c58cbb37e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style/stylevideo.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/style/stylevideo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +116,7 @@
       <workItem from="1710003926638" duration="1349000" />
       <workItem from="1710149047792" duration="15417000" />
       <workItem from="1710231106835" duration="5688000" />
+      <workItem from="1710245422380" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="account">
       <option name="closed" value="true" />

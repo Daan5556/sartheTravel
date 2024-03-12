@@ -16,6 +16,7 @@
 </head>
 
 <body>
+<img src="assets/images/bandenman.png" alt="">
 <div class="landingPageButton">
   <div id="landingPageButton" onclick="window.location.href = 'main.php'">Race Naar De Website!</div>
 </div>

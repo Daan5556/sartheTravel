@@ -8,6 +8,13 @@
   min-height: 100vh;
 }
 
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20rem;
+}
+
 body {
   overflow: hidden;
 }
